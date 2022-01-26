@@ -8,7 +8,6 @@ WORKDIR /instagram-scraper
 COPY setup.py /instagram-scraper/setup.py
 COPY instagram_scraper /instagram-scraper/instagram_scraper
 
-
 RUN python /instagram-scraper/setup.py install && rm -rf instagram_scraper.egg-info
 
 
