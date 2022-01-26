@@ -32,4 +32,5 @@ jobs:
       run: python setup.py install
 
     - name: Test Scraping
-      run: instagram-scraper framerate_cod,sa_vibez
+      # run: instagram-scraper framerate_cod ${{ secrets.PYPI_API_TOKEN }}
+      run: instagram-scraper framerate_cod -u ${{ secrets.IG_USERNAME }} -p ${{ secrets.IG_TOKEN }}
