@@ -2,7 +2,7 @@
 
 Instagram Scraper
 =================
-[![PyPI](https://img.shields.io/pypi/v/instagram-scraper.svg)](https://pypi.python.org/pypi/instagram-scraper) 
+[![Build and Push Container](https://github.com/buluma/instagram-scraper/actions/workflows/docker-image.yml/badge.svg)](https://github.com/buluma/instagram-scraper/actions/workflows/docker-image.yml) [![PyPI](https://img.shields.io/pypi/v/instagram-scraper.svg)](https://pypi.python.org/pypi/instagram-scraper) 
 
 instagram-scraper is a command-line application written in Python that scrapes and downloads an instagram user's photos and videos. Use responsibly.
 
